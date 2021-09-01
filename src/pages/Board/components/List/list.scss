@@ -1,0 +1,33 @@
+.list__item {
+  background: rgba(100, 100, 100, 0.5);
+  flex: 0 0 20%;
+  margin: 0 25px;
+  border-radius: 5px;
+}
+
+.list__title {
+  font-size: 25px;
+  background: yellowgreen;
+  padding: 5px;
+}
+
+.list__card {
+  font-size: 18px;
+}
+
+.list__main {
+  padding: 5px;
+}
+
+.list__btn {
+  border: none;
+  background: rgb(43, 143, 133);
+  cursor: pointer;
+  padding: 5px;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+}
+
+.list__btn:hover {
+  background: turquoise;
+}
