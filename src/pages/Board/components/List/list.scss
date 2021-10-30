@@ -1,6 +1,6 @@
 .list__item {
   background: rgba(100, 100, 100, 0.5);
-  flex: 0 0 20%;
+  flex: 0 0 15%;
   margin: 0 25px;
   border-radius: 5px;
 }
@@ -9,6 +9,10 @@
   font-size: 25px;
   background: yellowgreen;
   padding: 5px;
+  cursor: pointer;
+  &:hover {
+    color: yellow;
+  }
 }
 
 .list__card {
@@ -30,4 +34,8 @@
 
 .list__btn:hover {
   background: turquoise;
+}
+
+.cc-hidden {
+  display: none;
 }
